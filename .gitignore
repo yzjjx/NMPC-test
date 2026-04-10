@@ -1,0 +1,68 @@
+# =========================
+# Build directories
+# =========================
+build/
+cmake-build-*/
+out/
+bin/
+lib/
+
+# =========================
+# CMake generated files
+# =========================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+install_manifest.txt
+
+# =========================
+# Executables / binaries
+# =========================
+*.out
+*.exe
+*.app
+*.so
+*.a
+*.o
+*.obj
+*.dll
+*.lib
+
+# =========================
+# Debug / temp files
+# =========================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+core
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# MATLAB temporary files
+# =========================
+*.asv
+*.m~
+slprj/
+codegen/
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Python cache (防止后续脚本产生垃圾文件)
+# =========================
+__pycache__/
+*.pyc
