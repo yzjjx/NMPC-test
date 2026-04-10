@@ -274,12 +274,13 @@ $$
 \ddot{x}_2 -\alpha (1-x_2^2)\dot{x}_2 +x_2=0
 $$
 因为
+
 $$
 \left\{\begin{matrix}\dot{x}_2=x_1 
  \\\ddot{x}_2 =\dot{x}_1
-
 \end{matrix}\right.
 $$
+
 设$\alpha = 1$，移项，最终有：
 $$
 \left\{
