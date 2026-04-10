@@ -268,34 +268,34 @@ savepath
 上面描描述的微分方程可以表示为：
 
 
-$$
+```math
 \ddot{x} -\alpha (1-x^2)\dot{x} +x=0
-$$
-将$x_2$代入，有：
-$$
+```
+将$`x_2`$代入，有：
+```math
 \ddot{x}_2 -\alpha (1-x_2^2)\dot{x}_2 +x_2=0
-$$
+```
 
 
 因为
 
-$$
+```math
 \left\{\begin{matrix}\dot{x}_2=x_1 
  \\\ddot{x}_2 =\dot{x}_1
 \end{matrix}\right.
-$$
+```
 
-设$\alpha = 1$，移项，最终有：
+设$`\alpha = 1`$，移项，最终有：
 
 
-$$
+```math
 \left\{
 \begin{aligned}
 \dot{x}_1 &= (1-x_2^2)\dot{x}_1 - x_2 + u \\
 \dot{x}_2 &= x_1
 \end{aligned}
 \right.
-$$
+```
 
 
 
